@@ -1,0 +1,50 @@
+{
+  "name": "api-boilerplate-generator",
+  "version": "1.0.0",
+  "description": "Generate production-ready Node.js/Express API boilerplates in seconds",
+  "main": "src/index.js",
+  "bin": {
+    "api-gen": "bin/cli.js",
+    "api-boilerplate-generator": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "api",
+    "boilerplate",
+    "generator",
+    "express",
+    "nodejs",
+    "cli",
+    "auth",
+    "validation"
+  ],
+  "author": "Mouad @ KasbahCode <contact@kasbahcode.com>",
+  "license": "COMMERCIAL",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "inquirer": "^8.2.5",
+    "fs-extra": "^11.1.1",
+    "ora": "^5.4.1",
+    "figlet": "^1.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kasbahcode/api-boilerplate-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kasbahcode/api-boilerplate-generator/issues"
+  },
+  "homepage": "https://kasbahcode.com"
+} 
